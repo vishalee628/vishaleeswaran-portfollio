@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: larger;
+
+  
+}
+
+
+
+nav{
+    background-color: #6615BB;
+    position: sticky;
+    top: 0px;
+  
+}
+.nav-item
+
+{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     position: sticky;
+    top: 0;
+}
+
+/* Home Page Content */
+
+.Home-page{
+    height: 85vh;
+    width: 97.5%;
+background-color: #5F0EB5;
+ margin-left: 15px;
+}
+.head-section{
+    color: white;
+    padding: 20px;
+    font-size: 3rem;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+     font-family: "Boldonse", system-ui;
+  font-weight: 200;
+  font-style: normal;
+  gap: 10px;
+}
+
+.Home-head{
+    color: yellow;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;  
+
+}
+.icons>a>img{
+   
+    background-color: white;
+    border-radius: 8px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+/* Second Page */
+.Second-page{
+   height: 100vh;
+    width: 97.5%;
+    background-color: rgb(230, 230, 230);;
+    margin-left: 15px;
+}
+
+.second-page-head{
+    text-align: center;
+    font-weight: 600;
+    padding-top: 50px;
+       font-family: "Boldonse", system-ui;
+  font-weight: 200;
+}
+
+.card-content{
+    display: flex;
+    justify-content: space-around;
+   
+}
+h5>.cart-title{
+      font-family: "Boldonse", system-ui;
+  font-weight: 100;
+}
+.card:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    background-color: #5F0EB5;
+    color: white;
+}
+.btn:hover{
+    background-color: white;
+    color: #5F0EB5;
+}
+
+#skills{
+    transition: all 0.5s ease-in-out;
+}
+
+/* third-page */
+
+.third-page{
+  height: 100vh;
+    width: 97.5%;
+  
+    margin-left: 15px;
+    background-color: rgb(230, 230, 230);
+    border: 15px solid #5F0EB5;
+}
+.third-page-head>h2{
+    text-align: center;
+    font-weight: 600;
+    padding-top: 50px;
+       font-family: "Boldonse", system-ui;
+  font-weight: 200;
+}
+.about-btn{
+    background-color: #5F0EB5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+a{
+    text-decoration: none;
+}
+.vishal{
+    background-color: #5F0EB5;
+}
+
+/* fourth page */
+
+.fourth-page{
+  height: 100vh;
+    width: 97.5%;
+  
+    margin-left: 15px;
+    background-color: rgb(230, 230, 230);
+}
+
+.project-btn:hover,.project-btn.active{
+    background-color: #5F0EB5;
+    color: white;
+    border: none;
+}
+.fourth-page-head>h2{
+    text-align: center;
+    font-weight: 600;
+    padding-top: 50px;
+       font-family: "Boldonse", system-ui;
+  font-weight: 200;
+}
+
+
+
+/* contact-page */
+.contact-page{
+height: 100vh;
+    width: 99.9%;
+    background-color: rgb(230, 230, 230);
+}
+
+.contact-title>h1{
+    text-align: center;
+    font-weight: 600;
+    padding-top: 50px;
+       font-family: "Boldonse", system-ui;
+  font-weight: 200;
+}
+.contact-btn{
+    background-color: #5F0EB5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+}
+footer{
+    background-color: #6615BB;
+    height: 250px;
+    color: white;
+}
+.footer-icons>a>img{
+   background-color: white;
+    border-radius: 8px;
+    padding: 5px;
+    margin-right: 10px;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}

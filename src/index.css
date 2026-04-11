@@ -1,0 +1,188 @@
+/* Bootstrap CSS */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* Custom styles */
+* {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.navbar {
+  background: #6615BB !important;
+  box-shadow: 0 2px 10px rgba(102,21,187,0.3);
+}
+
+.navbar-nav .nav-link.active {
+  background: rgba(255,255,255,0.2);
+  border-radius: 25px;
+}
+a{
+  text-decoration: none;
+}
+.navbar-brand{
+    font-family: 'Boldonse', sans-serif;
+}
+
+.hero-section {
+  background: #5F0EB5 !important;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.card-hover:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+  background: #5F0EB5 !important;
+  color: white !important;
+}
+
+.btn-hover:hover {
+  background: white !important;
+  color: #5F0EB5 !important;
+}
+
+.about-btn, .contact-btn {
+  background: #5F0EB5;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 12px 30px;
+  font-weight: 500;
+}
+
+.project-btn.active, .project-btn:hover {
+  background: #5F0EB5 !important;
+  color: white !important;
+}
+
+.Home-head {
+  color: yellow !important;
+}
+
+h1, h2 {
+  font-family: 'Boldonse', sans-serif;
+  font-weight: 200;
+}
+
+footer {
+  background: #6615BB;
+  color: white;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 2rem 1rem;
+    min-height: auto;
+    text-align: center;
+  }
+
+  .head-section h1 {
+    font-size: 2.5rem;
+  }
+
+  .about-img {
+    max-height: 300px;
+  }
+
+  .icons {
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+
+  .icons img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .card {
+    margin-bottom: 1rem;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar-nav .nav-item {
+    margin: 0.5rem 0;
+  }
+
+  .about-section .row {
+    text-align: center;
+  }
+
+  .contact-form .row {
+    margin-bottom: 1rem;
+  }
+
+  .footer-icons {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .footer-icons a {
+    margin: 0.5rem;
+  }
+
+  .project-btn {
+    margin: 0.25rem !important;
+    padding: 0.5rem 1rem !important;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-section .display-3 {
+    font-size: 1.8rem;
+  }
+
+  .hero-section .display-4 {
+    font-size: 2rem;
+  }
+
+  .card-img-top {
+    width: 80px !important;
+    height: 80px !important;
+  }
+
+  .project-img {
+    width: 150px !important;
+    height: 150px !important;
+  }
+
+  .contact-btn {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2rem;
+  }
+
+  .project-btn {
+    margin: 0.25rem !important;
+    padding: 0.4rem 0.8rem !important;
+    font-size: 0.8rem;
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6615BB;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5F0EB5;
+}
