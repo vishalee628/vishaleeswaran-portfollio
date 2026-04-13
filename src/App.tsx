@@ -1,7 +1,5 @@
-<<<<<<< HEAD
-=======
 import React from 'react';
->>>>>>> 8f37bcfa88aa68e17dff2129dfdfc42da5c6b98a
+
 import Navbar from './components/Navbar';
 import HomeSection from './components/HomeSection';
 import SkillsSection from './components/SkillsSection';

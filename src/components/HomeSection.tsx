@@ -1,12 +1,8 @@
-<<<<<<< HEAD
-import type { FC } from 'react';
 
-const HomeSection: FC = () => {
-=======
 import React from 'react';
 
 const HomeSection: React.FC = () => {
->>>>>>> 8f37bcfa88aa68e17dff2129dfdfc42da5c6b98a
+
   return (
     <section className="hero-section text-white py-5 px-4" id="home">
       <div className="container h-100">

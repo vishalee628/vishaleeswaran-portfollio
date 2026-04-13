@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-import { useState, type FC } from 'react';
 
-const ProjectsSection: FC = () => {
-  const [filter, setFilter] = useState('all');
-
-  const projects = [
-    { id: 1, category: 'ml', title: 'Object Detection', description: 'Real-time object detection using advanced computer vision techniques', image: './img/project1.png' },
-=======
 import React, { useState } from 'react';
 
 const ProjectsSection: React.FC = () => {
@@ -14,7 +6,6 @@ const ProjectsSection: React.FC = () => {
 
   const projects = [
     { id: 1, category: 'ml', title: 'Object Detection', description: 'Real-time object detection using advanced computer vision techniques', image: './img/OIP.jpeg' },
->>>>>>> 8f37bcfa88aa68e17dff2129dfdfc42da5c6b98a
     { id: 2, category: 'ml', title: 'Leaf Disease Prediction', description: 'ML model for agricultural plant disease identification', image: './img/OIP (1).jpeg' },
     { id: 3, category: 'ml', title: 'Vehicle Detection', description: 'Advanced vehicle detection and tracking system', image: './img/OIP (2).jpeg' },
   ];

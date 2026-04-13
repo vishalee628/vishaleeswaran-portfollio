@@ -1,12 +1,8 @@
-<<<<<<< HEAD
-import type { FC } from 'react';
 
-const ContactSection: FC = () => {
-=======
 import React from 'react';
 
 const ContactSection: React.FC = () => {
->>>>>>> 8f37bcfa88aa68e17dff2129dfdfc42da5c6b98a
+
   return (
   <section className="py-5 px-4" id="Contact">
         <div className="container">
