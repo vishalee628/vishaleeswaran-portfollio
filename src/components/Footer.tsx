@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 import type { FC } from 'react';
 
 const Footer: FC = () => {
+=======
+import React from 'react';
+
+const Footer: React.FC = () => {
+>>>>>>> 8f37bcfa88aa68e17dff2129dfdfc42da5c6b98a
   return (
     <footer className="py-5 px-4">
       <div className="container">
@@ -43,7 +49,11 @@ const Footer: FC = () => {
           </div>
         </div>
         <div className="text-center mt-4 pt-3 border-top">
+<<<<<<< HEAD
           <p className="mb-0 text-white-50">© 2026 Vishaleeswaran. All rights reserved.</p>
+=======
+          <p className="mb-0 text-white-50">© 2025 Vishaleeswaran. All rights reserved.</p>
+>>>>>>> 8f37bcfa88aa68e17dff2129dfdfc42da5c6b98a
         </div>
       </div>
     </footer>

@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 import type { FC } from 'react';
 
 const AboutSection: FC = () => {
+=======
+import React from 'react';
+
+const AboutSection: React.FC = () => {
+>>>>>>> 8f37bcfa88aa68e17dff2129dfdfc42da5c6b98a
   return (
     <section className="py-5 px-4 bg-light" id="AboutMe">
       <div className="container">

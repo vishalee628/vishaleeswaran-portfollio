@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 import { useState, useEffect, type FC } from 'react';
 
 const Navbar: FC = () => {
+=======
+import React, { useState, useEffect } from 'react';
+
+const Navbar: React.FC = () => {
+>>>>>>> 8f37bcfa88aa68e17dff2129dfdfc42da5c6b98a
   const [activeSection, setActiveSection] = useState('home');
 
   useEffect(() => {

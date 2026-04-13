@@ -223,6 +223,7 @@ footer{
 a{
     text-decoration: none;
     color: white;
+<<<<<<< HEAD
 }
 
 /* Skill Cards */
@@ -378,4 +379,6 @@ a{
 .internship-card:hover {
     box-shadow: 0 12px 35px rgba(95, 14, 181, 0.25);
     transform: translateY(-5px);
+=======
+>>>>>>> 8f37bcfa88aa68e17dff2129dfdfc42da5c6b98a
 }

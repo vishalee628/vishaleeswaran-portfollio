@@ -185,9 +185,12 @@ html {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #5F0EB5;
+<<<<<<< HEAD
 }
 .skill-card>img {
 background-color: #000000;
 border-radius: 50px;
 padding: 6px;
+=======
+>>>>>>> 8f37bcfa88aa68e17dff2129dfdfc42da5c6b98a
 }

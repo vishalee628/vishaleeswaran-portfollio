@@ -1,12 +1,19 @@
+<<<<<<< HEAD
 import { useState, type FC } from 'react';
 
 const SkillsSection: FC = () => {
+=======
+import React, { useState } from 'react';
+
+const SkillsSection: React.FC = () => {
+>>>>>>> 8f37bcfa88aa68e17dff2129dfdfc42da5c6b98a
   const [activeTab, setActiveTab] = useState('skills');
 
   const handleTabClick = (tab: string) => {
     setActiveTab(tab);
   };
 
+<<<<<<< HEAD
   const technicalSkills = [
     { id: 1, name: 'Python', image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg' },
     { id: 2, name: 'JavaScript', image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
@@ -47,21 +54,41 @@ const SkillsSection: FC = () => {
     { company: 'Tech Company Name', role: 'ML Intern', duration: '2-3 Months' },
     { company: 'Web Development Startup', role: 'Frontend Developer Intern', duration: '3 Months' },
   ];
+=======
+  const getTitle = () => {
+    switch (activeTab) {
+      case 'softskills': return 'Soft Skills';
+      case 'education': return 'Education';
+      case 'certificates': return 'Certificates';
+      case 'internships': return 'Internships';
+      default: return 'Skills';
+    }
+  };
+>>>>>>> 8f37bcfa88aa68e17dff2129dfdfc42da5c6b98a
 
   return (
     <section className="bg-light py-5 px-4" id="skills">
       <div className="container">
         <div className="text-center mb-5">
+<<<<<<< HEAD
           <h1 className="display-5 font-weight-light mb-3">My Skills</h1>
         </div>
         
         {/* Tab Buttons */}
+=======
+          <h1 className="display-5 font-weight-light mb-3">{getTitle()}</h1>
+        </div>
+>>>>>>> 8f37bcfa88aa68e17dff2129dfdfc42da5c6b98a
         <div className="text-center mb-5">
           <button
             className={`project-btn btn btn-secondary p-2 px-4 mx-2 mb-2 rounded-pill ${activeTab === 'skills' ? 'active' : ''}`}
             onClick={() => handleTabClick('skills')}
           >
+<<<<<<< HEAD
             Technical Skills
+=======
+            Skills
+>>>>>>> 8f37bcfa88aa68e17dff2129dfdfc42da5c6b98a
           </button>
           <button
             className={`project-btn btn btn-secondary p-2 px-4 mx-2 mb-2 rounded-pill ${activeTab === 'softskills' ? 'active' : ''}`}
@@ -88,6 +115,7 @@ const SkillsSection: FC = () => {
             Internships
           </button>
         </div>
+<<<<<<< HEAD
 
         {/* Technical Skills */}
         {activeTab === 'skills' && (
@@ -164,6 +192,40 @@ const SkillsSection: FC = () => {
             ))}
           </div>
         )}
+=======
+        <div className="row justify-content-center">
+          <div className="col-lg-4 col-md-6 col-sm-10 mb-4">
+            <div className="card card-hover h-100 border-0 shadow">
+              <img src="./img/world-wide-web.png" alt="Web Technology" className="card-img-top mx-auto mt-4" style={{ width: '120px', height: '120px' }} />
+              <div className="card-body text-center">
+                <h5 className="card-title">Web Development</h5>
+                <p className="card-text">Full Stack Development with modern frameworks and technologies</p>
+                <a href="#" className="btn btn-dark btn-hover w-100 rounded-pill">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 col-sm-10 mb-4">
+            <div className="card card-hover h-100 border-0 shadow">
+              <img src="./img/brainstorming.png" alt="ML" className="card-img-top mx-auto mt-4" style={{ width: '120px', height: '120px' }} />
+              <div className="card-body text-center">
+                <h5 className="card-title">Machine Learning</h5>
+                <p className="card-text">AI models, Deep Learning, Data Science solutions</p>
+                <a href="#" className="btn btn-dark btn-hover w-100 rounded-pill">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 col-sm-10 mb-4">
+            <div className="card card-hover h-100 border-0 shadow">
+              <img src="./img/graphic-design.png" alt="UI/UX" className="card-img-top mx-auto mt-4" style={{ width: '120px', height: '120px' }} />
+              <div className="card-body text-center">
+                <h5 className="card-title">UI/UX Design</h5>
+                <p className="card-text">Modern, responsive and user-friendly designs</p>
+                <a href="#" className="btn btn-dark btn-hover w-100 rounded-pill">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+>>>>>>> 8f37bcfa88aa68e17dff2129dfdfc42da5c6b98a
       </div>
     </section>
   );
