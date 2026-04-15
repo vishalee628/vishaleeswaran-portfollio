@@ -149,7 +149,7 @@ footer {
   .project-img {
     width: 150px !important;
     height: 150px !important;
-  }
+margin: 5px;  }
 
   .contact-btn {
     width: 100%;

@@ -382,3 +382,89 @@ a{
 =======
 >>>>>>> 8f37bcfa88aa68e17dff2129dfdfc42da5c6b98a
 }
+
+/* Mobile Responsive Styles */
+@media (max-width: 991px) {
+    .navbar-nav {
+        padding-top: 15px;
+    }
+    
+    .navbar-collapse {
+        display: flex !important;
+        flex-direction: column;
+    }
+    
+    .btn-light {
+        width: 100%;
+        margin-top: 15px;
+        padding: 12px 20px !important;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .Home-page {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        padding: 20px 0;
+    }
+    
+    .head-section {
+        font-size: 2rem;
+        padding: 15px 10px;
+    }
+    
+    .Second-page,
+    .third-page,
+    .fourth-page,
+    .contact-page {
+        width: 100%;
+        margin-left: 0;
+        height: auto;
+        border: none;
+        padding: 20px 0;
+    }
+    
+    .third-page {
+        border: 10px solid #5F0EB5;
+    }
+    
+    .card-content {
+        flex-wrap: wrap;
+    }
+    
+    .navbar-toggler {
+        border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar {
+        padding: 10px 0 !important;
+    }
+    
+    .navbar-brand {
+        font-size: 1.5rem !important;
+    }
+    
+    .head-section {
+        font-size: 1.5rem;
+        gap: 5px;
+    }
+    
+    .icons {
+        gap: 15px;
+    }
+    
+    .icons > a > img {
+        margin-right: 5px;
+        width: 40px;
+        height: 40px;
+    }
+    
+    .btn-light {
+        font-size: 0.9rem;
+        padding: 10px 15px !important;
+    }
+}

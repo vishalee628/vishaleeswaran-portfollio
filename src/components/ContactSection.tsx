@@ -30,9 +30,6 @@ const ContactSection: React.FC = () => {
                         </div>
                         <div className="row g-3 mb-4">
                             <div className="col-md-6">
-                                <input type="text" className="form-control form-control-lg rounded-pill px-4 py-3" placeholder="Timeline" id="Timeline" />
-                            </div>
-                            <div className="col-md-6">
                                 <textarea className="form-control form-control-lg rounded-3 px-4 py-3" rows={3} placeholder="Message" id="Message"></textarea>
                             </div>
                         </div>

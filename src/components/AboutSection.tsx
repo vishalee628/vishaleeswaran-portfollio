@@ -8,7 +8,7 @@ const AboutSection: React.FC = () => {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-6 text-center mb-4 mb-lg-0">
-            <img src="./img/vishal.png" alt="Vishaleeswaran" className="vishal img-fluid rounded shadow about-img" />
+            <img src="./assets/vishal.png" alt="Vishaleeswaran" className="vishal img-fluid rounded shadow about-img" />
           </div>
           <div className="col-lg-6">
             <div className="text-center text-lg-left">
