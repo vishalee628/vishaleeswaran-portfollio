@@ -10,21 +10,21 @@ const SkillsSection: React.FC = () => {
 
 
   const technicalSkills = [
-    { id: 1, name: 'Html', image: './assets/svgicons/html.svg'  },
-    { id: 2, name: 'CSS', image: './assets/svgicons/css.svg'  },
+    { id: 1, name: 'Html', image: '/assets/svgicons/html.svg'  },
+    { id: 2, name: 'CSS', image: '/assets/svgicons/css.svg'  },
     { id: 3, name: 'JavaScript', image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
     { id: 4, name: 'React', image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
     { id: 5, name: 'TypeScript', image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' },
     { id: 6, name: 'MongoDB', image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg' },
-    { id: 7, name: 'SQL', image: './assets/svgicons/sql.svg'  },
+    { id: 7, name: 'SQL', image: '/assets/svgicons/sql.svg'  },
     { id: 8, name: 'Node.js', image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' },
-    { id: 9, name: 'Django', image: './assets/svgicons/django.svg'  },
+    { id: 9, name: 'Django', image: '/assets/svgicons/django.svg'  },
     { id: 10, name: 'Python', image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg' },
     { id: 11, name: 'Git', image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg' },
-    { id: 12, name: 'Figma', image: './assets/svgicons/figma.svg' },
-    { id: 13, name: 'Illustrator', image: './assets/svgicons/adobe-ilustrator.svg' },
-    { id: 14, name: 'Photoshop', image: './assets/svgicons/photoshop.svg' },
-    { id: 15, name: 'Machine-learning', image: './assets/svgicons/machine-learning.svg' },
+    { id: 12, name: 'Figma', image: '/assets/svgicons/figma.svg' },
+    { id: 13, name: 'Illustrator', image: '/assets/svgicons/adobe-ilustrator.svg' },
+    { id: 14, name: 'Photoshop', image: '/assets/svgicons/photoshop.svg' },
+    { id: 15, name: 'Machine-learning', image: '/assets/svgicons/machine-learning.svg' },
   ];
 
   const softSkills = [
