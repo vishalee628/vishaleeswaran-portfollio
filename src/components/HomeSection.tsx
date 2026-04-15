@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const HomeSection: React.FC = () => {
@@ -28,7 +27,7 @@ const HomeSection: React.FC = () => {
             </div>
           </div>
           <div className="col-lg-6 col-md-12 mx-auto text-center hero-image-container">
-            <img src="/assets/vishal.png" alt="Vishaleeswaran" className="hero-img img-fluid rounded shadow" />
+            <img src="/images/vishal.png" alt="Vishaleeswaran" className="hero-img img-fluid rounded shadow" />
           </div>
         </div>
       </div>

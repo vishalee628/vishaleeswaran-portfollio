@@ -4,14 +4,14 @@ export const projects = [
     category: 'ml',
     title: 'Object Detection',
     description: 'Real-time object detection using advanced computer vision techniques',
-    image: '/assets/project1.png'
+    image: '/images/project1.png'
   },
   {
     id: 2,
     category: 'ml',
     title: 'Leaf Disease Prediction',
     description: 'ML model for agricultural plant disease identification',
-    image: '/assets/project2.png'
+    image: '/images/project2.png'
   },
   {
     id: 3,
