@@ -18,6 +18,6 @@ export const projects = [
     category: 'ml',
     title: 'Vehicle Detection',
     description: 'Advanced vehicle detection and tracking system',
-    image: 'https://via.placeholder.com/300x200?text=Vehicle+Detection'
+    image: '/images/project3.png'
   }
 ];
