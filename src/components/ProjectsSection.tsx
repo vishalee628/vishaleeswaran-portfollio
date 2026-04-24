@@ -23,7 +23,7 @@ const ProjectsSection: React.FC = () => {
                 <div className="card-body text-center">
                   <h5 className="card-title">{project.title}</h5>
                   <p className="card-text">{project.description}</p>
-                  <a href="#" className="btn btn-dark btn-hover w-100 rounded-pill">View Project</a>
+                  <a href={project.urls} className="btn btn-dark btn-hover w-100 rounded-pill" target='blank'>View Project</a>
                   
                 </div>
               </div>

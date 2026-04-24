@@ -8,16 +8,16 @@ const Footer: FC = () => {
           <div className="col-md-3 mb-4">
             <div className="footer-icons">
               <a href="https://www.linkedin.com/in/vishaleeswaran-k-53579b358" className="mx-2">
-                <img src="/assets/svgicons/linkedin.svg" alt="Linkedin" className="rounded-circle bg-white p-2" width="45" height="45" />
+                <img src="/public/images/linkedin.svg" alt="Linkedin" className="rounded-circle bg-white p-2" width="45" height="45" />
               </a>
               <a href="https://github.com/vishalee628" className="mx-2">
-                <img src="/assets/svgicons/github.svg" alt="Github" className="rounded-circle bg-white p-2" width="45" height="45" />
+                <img src="/public/images/github.svg" alt="Github" className="rounded-circle bg-white p-2" width="45" height="45" />
               </a>
               <a href="mailto:vishaleeswaranvishal@gmail.com" className="mx-2">
-                <img src="/assets/svgicons/gmail.svg" alt="Gmail" className="rounded-circle bg-white p-2" width="45" height="45" />
+                <img src="/public/images/gmail.svg" alt="Gmail" className="rounded-circle bg-white px-2" width="45" height="45" />
               </a>
               <a href="https://wa.me/qr/WYCXE6GELSM5G1" className="mx-2">
-                <img src="/assets/svgicons/whatsapp.svg" alt="Whatsapp" className="rounded-circle bg-white p-2" width="45" height="45" />
+                <img src="/public/images/whatsapp.svg" alt="Whatsapp" className="rounded-circle bg-white px-2" width="45" height="45" />
               </a>
             </div>
           </div>
@@ -41,10 +41,6 @@ const Footer: FC = () => {
             <p className="mb-1">Sulur, Coimbatore</p>
             <a href="mailto:vishaleeswaranvishal@gmail.com" className="text-light">vishaleeswaranvishal@gmail.com</a>
           </div>
-        </div>
-        <div className="text-center mt-4 pt-3 border-top">
-          <p className="mb-0 text-white-50">© 2026 Vishaleeswaran. All rights reserved.</p>
-
         </div>
       </div>
     </footer>

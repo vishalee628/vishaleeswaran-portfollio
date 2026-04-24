@@ -21,7 +21,7 @@ body{
 
 
 nav{
-    background-color: #6615BB;
+    background-color: #151c6b;
     position: sticky;
     top: 0px;
   
@@ -42,7 +42,7 @@ nav{
 .Home-page{
     height: 85vh;
     width: 97.5%;
-background-color: #5F0EB5;
+background-color: #151c6b;
  margin-left: 15px;
 }
 .head-section{
@@ -76,11 +76,30 @@ background-color: #5F0EB5;
     margin-right: 10px;
 }
 
+.head-section {
+    
+    animation: title 2s ease-in-out forwards;
+}
+
+.Home-head1{
+    font-size: 200px;
+}
+
+@keyframes title {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }}
+
 /* Second Page */
 .Second-page{
    height: 100vh;
     width: 97.5%;
-    background-color: rgb(230, 230, 230);;
+    background-color: rgb(230, 230, 230);
     margin-left: 15px;
 }
 
@@ -104,12 +123,12 @@ h5>.cart-title{
 .card:hover{
     transform: scale(1.05);
     transition: all 0.3s ease-in-out;
-    background-color: #5F0EB5;
+    background-color: #151c6b;
     color: white;
 }
 .btn:hover{
     background-color: white;
-    color: #5F0EB5;
+    color: #151c6b;
 }
 
 #skills{
@@ -124,7 +143,7 @@ h5>.cart-title{
   
     margin-left: 15px;
     background-color: rgb(230, 230, 230);
-    border: 15px solid #5F0EB5;
+    border: 15px solid #151c6b;
 }
 .third-page-head>h2{
     text-align: center;
@@ -134,7 +153,7 @@ h5>.cart-title{
   font-weight: 200;
 }
 .about-btn{
-    background-color: #5F0EB5;
+    background-color: #151c6b;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -151,7 +170,7 @@ a{
     text-decoration: none;
 }
 .vishal{
-    background-color: #5F0EB5;
+    background-color: #151c6b;
 }
 
 /* fourth page */
@@ -165,7 +184,7 @@ a{
 }
 
 .project-btn:hover,.project-btn.active{
-    background-color: #5F0EB5;
+    background-color: #151c6b;
     color: white;
     border: none;
 }
@@ -194,13 +213,13 @@ height: 100vh;
   font-weight: 200;
 }
 .contact-btn{
-    background-color: #5F0EB5;
+    background-color: #151c6b;
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 20px;   
     align-items: center;
     justify-content: center;
     display: block;
@@ -209,7 +228,7 @@ height: 100vh;
     font-size: large;
 }
 footer{
-    background-color: #6615BB;
+    background-color: #151c6b;
     height: 250px;
     color: white;
 }
@@ -247,7 +266,7 @@ a{
 .skill-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 15px 40px rgba(95, 14, 181, 0.3);
-    border-color: #5F0EB5;
+    border-color: #151c6b;
     background: linear-gradient(135deg, #f5f5f5 0%, #ffffff 100%);
 }
 
@@ -278,7 +297,7 @@ a{
 }
 
 .skill-card:hover .skill-name {
-    color: #5F0EB5;
+    color: #151c6b;
 }
 
 /* Soft Skill Card */
@@ -302,14 +321,14 @@ a{
 .soft-skill-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 15px 40px rgba(95, 14, 181, 0.3);
-    border-color: #5F0EB5;
+    border-color: #151c6b;
     background: linear-gradient(135deg, #f5f5f5 0%, #ffffff 100%);
 }
 
 .soft-skill-icon {
     width: 50px;
     height: 50px;
-    background: #5F0EB5;
+    background: #151c6b;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -328,7 +347,7 @@ a{
 /* Education Card */
 .education-card {
     background: white;
-    border-left: 5px solid #5F0EB5;
+    border-left: 5px solid #151c6b;
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
@@ -361,7 +380,7 @@ a{
 
 .certificate-icon {
     font-size: 28px;
-    color: #5F0EB5;
+    color: #151c6b;
     min-width: 30px;
 }
 
@@ -373,7 +392,7 @@ a{
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
     transition: all 0.3s ease-in-out;
     cursor: pointer;
-    border-top: 4px solid #5F0EB5;
+    border-top: 4px solid #151c6b;
 }
 
 .internship-card:hover {
@@ -390,6 +409,7 @@ a{
     .navbar-collapse {
         display: flex !important;
         flex-direction: column;
+       
     }
     
     .btn-light {
@@ -425,7 +445,7 @@ a{
     }
     
     .third-page {
-        border: 10px solid #5F0EB5;
+        border: 10px solid #151c6b;
     }
     
     .card-content {
