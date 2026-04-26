@@ -54,7 +54,7 @@ const Navbar: React.FC = () => {
               <a className={`nav-link px-3 py-2 ${activeSection === 'Contact' ? 'active' : ''}`} href="#Contact" onClick={handleNavClick}>Contact</a>
             </li>
           </ul>
-          <a href="#Contact" className="btn btn-light px-4 rounded-pill" onClick={handleNavClick}>Hire Me</a>
+          <a href="#Contact" className="btn btn-light px-4 rounded-pill d-block align-items-center" onClick={handleNavClick}>Hire Me</a>
         </div>
       </div>
     </nav>

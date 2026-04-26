@@ -8,16 +8,16 @@ const Footer: FC = () => {
           <div className="col-md-3 mb-4">
             <div className="footer-icons">
               <a href="https://www.linkedin.com/in/vishaleeswaran-k-53579b358" className="mx-2">
-                <img src="/public/images/linkedin.svg" alt="Linkedin" className="rounded-circle bg-white p-2" width="45" height="45" />
+                <img src="/images/linkedin.svg" alt="Linkedin" className="rounded-circle bg-white p-2" width="45" height="45" />
               </a>
               <a href="https://github.com/vishalee628" className="mx-2">
-                <img src="/public/images/github.svg" alt="Github" className="rounded-circle bg-white p-2" width="45" height="45" />
+                <img src="/images/github.svg" alt="Github" className="rounded-circle bg-white p-2" width="45" height="45" />
               </a>
               <a href="mailto:vishaleeswaranvishal@gmail.com" className="mx-2">
-                <img src="/public/images/gmail.svg" alt="Gmail" className="rounded-circle bg-white px-2" width="45" height="45" />
+                <img src="/images/gmail.svg" alt="Gmail" className="rounded-circle bg-white px-2" width="45" height="45" />
               </a>
               <a href="https://wa.me/qr/WYCXE6GELSM5G1" className="mx-2">
-                <img src="/public/images/whatsapp.svg" alt="Whatsapp" className="rounded-circle bg-white px-2" width="45" height="45" />
+                <img src="/images/whatsapp.svg" alt="Whatsapp" className="rounded-circle bg-white px-2" width="45" height="45" />
               </a>
             </div>
           </div>
